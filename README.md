@@ -26,7 +26,7 @@ Hi you can can run this site without any restriction, please check for an update
 
 ### Prerequisites
 
-Forefront library is used as JS template.
+JS template taken from Forefront Library
 
 ### Installation
 
