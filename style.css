@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+canvas {
+    border: 2px solid #000;
+}
+
+/* Additional styles for streak indicator */
+canvas::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, #FFF, #800080); /* White to Purple gradient */
+    z-index: 2;
+}
